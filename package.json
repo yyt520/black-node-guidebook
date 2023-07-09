@@ -1,0 +1,33 @@
+{
+  "name": "black-node-guidebook",
+  "version": "1.0.0",
+  "description": "A technical mannual about Node knowledge",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run dev",
+    "dev": "yarn run dumi dev --port=8070",
+    "lint:md": "node lint-md *.md",
+    "lint:fix": "node lint-md *.md --fix",
+    "build": "yarn run dumi build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyt520/black-node-guidebook.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "Node",
+    "Node.js",
+    "NodeJS",
+    "javascript",
+    "JavaScript"
+  ],
+  "author": "yyt520",
+  "license": "MIT",
+  "homepage": "https://yyt520.github.io/black-node-guidebook/",
+  "devDependencies": {
+    "dumi": "^1.1.50",
+    "lint-md": "^0.2.0"
+  }
+}
